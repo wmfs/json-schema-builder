@@ -6,7 +6,8 @@
   "homepage": "https://github.com/wmfs/json-schema-builder#readme",
   "keywords": [
     "tymly",
-    "package"
+    "package",
+    "json schema"
   ],
   "license": "MIT",
   "repository": {

@@ -4,8 +4,8 @@
 
 # Why?
 
-If you're building some higher-level, drag-and-drop tooling to produce JSON Schema objects, chances are your internal representation will be more array-like at that time.
-This package is intented to take that internal representation and turn it into a valid JSON-Schema schema.
+If you're building some high-level, drag-and-drop tooling to produce JSON Schema objects, chances are your internal representation will be more array-like?
+This package is intended to take that internal UI representation and turn it into a valid JSON-Schema schema.
 
 # Installation
 
