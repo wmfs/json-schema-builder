@@ -1,0 +1,51 @@
+{
+  "name": "@wmfs/json-schema-builder",
+  "version": "0.0.0-semantically-released",
+  "description": "Generate JSON-Schema schemas via a UI-orientated DSL.",
+  "author": "West Midlands Fire Service",
+  "homepage": "https://github.com/wmfs/json-schema-builder#readme",
+  "keywords": [
+    "tymly",
+    "package"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmfs/json-schema-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wmfs/json-schema-builder/issues"
+  },
+  "main": "lib/json-schema-builder.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "codecov": "3.1.0",
+    "conventional-changelog-metahub": "2.0.2",
+    "cz-conventional-changelog": "2.1.0",
+    "mocha": "5.2.0",
+    "nyc": "13.1.0",
+    "standard": "12.0.1",
+    "semantic-release": "15.13.1",
+    "@semantic-release/changelog": "3.0.1",
+    "@semantic-release/git": "7.0.5",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "test": "nyc mocha && standard",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "semantic-release": "semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
