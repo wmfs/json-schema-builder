@@ -15,6 +15,7 @@ describe('Basic builder tests', function () {
           {
             key: 'code',
             typeHint: 'string',
+            example: 'CHEESE_TOMATO',
             required: true,
             title: 'Unique code of the pizza',
             minLength: 3,
@@ -24,6 +25,7 @@ describe('Basic builder tests', function () {
             key: 'label',
             typeHint: 'string',
             required: true,
+            example: 'Cheese & Tomato',
             title: 'Customer-facing label'
           },
           {
@@ -37,6 +39,7 @@ describe('Basic builder tests', function () {
             key: 'imageUri',
             typeHint: 'uri',
             required: true,
+            example: 'https://tinyurl.com/y8r5bbu5',
             title: 'URI to an enticing photo of the pizza'
           },
           {
@@ -49,6 +52,7 @@ describe('Basic builder tests', function () {
           {
             key: 'allergens',
             typeHint: 'string',
+            example: ['Gluten', 'Wheat', 'Milk'],
             multiple: true,
             uniqueItems: true,
             title: 'List of allergens present in pizza'
@@ -56,6 +60,7 @@ describe('Basic builder tests', function () {
           {
             key: 'availabilityEnd',
             typeHint: 'date',
+            example: '2019-12-31',
             required: false,
             title: 'Date when pizza is no longer available.'
           },
@@ -67,12 +72,14 @@ describe('Basic builder tests', function () {
             propertyHints: [
               {
                 key: 'username',
+                example: 'joebloggs4',
                 typeHint: 'string',
                 required: true,
                 title: 'Who wrote the review'
               },
               {
                 key: 'review',
+                example: 'Lovely stuff!',
                 typeHint: 'string',
                 required: true,
                 title: 'Something nice to say'
@@ -80,6 +87,7 @@ describe('Basic builder tests', function () {
               {
                 key: 'rating',
                 title: 'Star rating (0=Awful 5=Great)',
+                example: 5,
                 typeHint: 'integer',
                 required: true,
                 minimum: 0,
@@ -102,12 +110,18 @@ describe('Basic builder tests', function () {
         properties: {
           code: {
             title: 'Unique code of the pizza',
+            examples: [
+              'CHEESE_TOMATO'
+            ],
             type: 'string',
             minLength: 3,
             maxLength: 15
           },
           label: {
             title: 'Customer-facing label',
+            examples: [
+              'Cheese & Tomato'
+            ],
             type: 'string'
           },
           popularitySeq: {
@@ -117,6 +131,9 @@ describe('Basic builder tests', function () {
           },
           imageUri: {
             title: 'URI to an enticing photo of the pizza',
+            examples: [
+              'https://tinyurl.com/y8r5bbu5'
+            ],
             type: 'string',
             format: 'uri'
           },
@@ -128,6 +145,13 @@ describe('Basic builder tests', function () {
           allergens: {
             title: 'List of allergens present in pizza',
             type: 'array',
+            examples: [
+              [
+                'Gluten',
+                'Wheat',
+                'Milk'
+              ]
+            ],
             uniqueItems: true,
             items: {
               type: 'string'
@@ -136,6 +160,9 @@ describe('Basic builder tests', function () {
           availabilityEnd: {
             title: 'Date when pizza is no longer available.',
             type: 'string',
+            examples: [
+              '2019-12-31'
+            ],
             format: 'date-time'
           },
           reviews: {
@@ -146,15 +173,24 @@ describe('Basic builder tests', function () {
               properties: {
                 username: {
                   title: 'Who wrote the review',
-                  type: 'string'
+                  type: 'string',
+                  examples: [
+                    'joebloggs4'
+                  ]
                 },
                 review: {
                   title: 'Something nice to say',
-                  type: 'string'
+                  type: 'string',
+                  examples: [
+                    'Lovely stuff!'
+                  ]
                 },
                 rating: {
                   title: 'Star rating (0=Awful 5=Great)',
                   default: 5,
+                  examples: [
+                    5
+                  ],
                   type: 'integer',
                   minimum: 0,
                   maximum: 5

@@ -27,6 +27,7 @@ const jsonSchema = makeJsonSchema(
       {
         key: 'code',
         typeHint: 'string',
+        example: 'CHEESE_TOMATO',
         required: true,
         title: 'Unique code of the pizza',
         minLength: 3,
@@ -36,6 +37,7 @@ const jsonSchema = makeJsonSchema(
         key: 'label',
         typeHint: 'string',
         required: true,
+        example: 'Cheese & Tomato',
         title: 'Customer-facing label'
       },
       {
@@ -49,6 +51,7 @@ const jsonSchema = makeJsonSchema(
         key: 'imageUri',
         typeHint: 'uri',
         required: true,
+        example: 'https://tinyurl.com/y8r5bbu5',
         title: 'URI to an enticing photo of the pizza'
       },
       {
@@ -61,6 +64,7 @@ const jsonSchema = makeJsonSchema(
       {
         key: 'allergens',
         typeHint: 'string',
+        example: ['Gluten', 'Wheat', 'Milk'],
         multiple: true,
         uniqueItems: true,
         title: 'List of allergens present in pizza'
@@ -68,6 +72,7 @@ const jsonSchema = makeJsonSchema(
       {
         key: 'availabilityEnd',
         typeHint: 'date',
+        example: '2019-12-31',
         required: false,
         title: 'Date when pizza is no longer available.'
       },
@@ -79,12 +84,14 @@ const jsonSchema = makeJsonSchema(
         propertyHints: [
           {
             key: 'username',
+            example: 'joebloggs4',
             typeHint: 'string',
             required: true,
             title: 'Who wrote the review'
           },
           {
             key: 'review',
+            example: 'Lovely stuff!',
             typeHint: 'string',
             required: true,
             title: 'Something nice to say'
@@ -92,6 +99,7 @@ const jsonSchema = makeJsonSchema(
           {
             key: 'rating',
             title: 'Star rating (0=Awful 5=Great)',
+            example: 5,
             typeHint: 'integer',
             required: true,
             minimum: 0,
@@ -104,92 +112,125 @@ const jsonSchema = makeJsonSchema(
   }
 )
 
+/*
+
 // Which returns...
 // ----------------
 //
-// {
-//   "$schema": "http://json-schema.org/draft-06/schema#",
-//   "title": "Pizza",
-//   "description": "A model for storing details of a pizza (recipe, price etc.)",
-//   "type": "object",
-//   "properties": {
-//     "code": {
-//       "title": "Unique code of the pizza",
-//       "type": "string",
-//       "minLength": 3,
-//       "maxLength": 15
-//     },
-//     "label": {
-//       "title": "Customer-facing label",
-//       "type": "string"
-//     },
-//     "popularitySeq": {
-//       "title": "Integer value to order lists by",
-//       "type": "integer",
-//       "minimum": 1
-//     },
-//     "imageUri": {
-//       "title": "URI to an enticing photo of the pizza",
-//       "type": "string",
-//       "format": "uri"
-//     },
-//     "vegetarian": {
-//       "title": "Is the pizza suitable for vegetarians?",
-//       "default": false,
-//       "type": "boolean"
-//     },
-//     "allergens": {
-//       "title": "List of allergens present in pizza",
-//       "type": "array",
-//       "uniqueItems": true,
-//       "items": {
-//         "type": "string"
-//       }
-//     },
-//     "availabilityEnd": {
-//       "title": "Date when pizza is no longer available.",
-//       "type": "string",
-//       "format": "date-time"
-//     },
-//     "reviews": {
-//       "title": "Favourable customer reviews",
-//       "type": "array",
-//       "items": {
-//         "type": "object",
-//         "properties": {
-//           "username": {
-//             "title": "Who wrote the review",
-//             "type": "string"
-//           },
-//           "review": {
-//             "title": "Something nice to say",
-//             "type": "string"
-//           },
-//           "rating": {
-//             "title": "Star rating (0=Awful 5=Great)",
-//             "default": 5,
-//             "type": "integer",
-//             "minimum": 0,
-//             "maximum": 5
-//           }
-//         },
-//         "required": [
-//           "username",
-//           "review",
-//           "rating"
-//         ]
-//       }
-//     }
-//   },
-//   "required": [
-//     "code",
-//     "label",
-//     "popularitySeq",
-//     "imageUri",
-//     "vegetarian"
-//   ]
-// }
-//
+
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Pizza",
+  "description": "A model for storing details of a pizza (recipe, price etc.)",
+  "type": "object",
+  "properties": {
+    "code": {
+      "title": "Unique code of the pizza",
+      "examples": [
+        "CHEESE_TOMATO"
+      ],
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 15
+    },
+    "label": {
+      "title": "Customer-facing label",
+      "examples": [
+        "Cheese & Tomato"
+      ],
+      "type": "string"
+    },
+    "popularitySeq": {
+      "title": "Integer value to order lists by",
+      "type": "integer",
+      "minimum": 1
+    },
+    "imageUri": {
+      "title": "URI to an enticing photo of the pizza",
+      "examples": [
+        "https://tinyurl.com/y8r5bbu5"
+      ],
+      "type": "string",
+      "format": "uri"
+    },
+    "vegetarian": {
+      "title": "Is the pizza suitable for vegetarians?",
+      "default": false,
+      "type": "boolean"
+    },
+    "allergens": {
+      "title": "List of allergens present in pizza",
+      "examples": [
+        [
+          "Gluten",
+          "Wheat",
+          "Milk"
+        ]
+      ],
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "availabilityEnd": {
+      "title": "Date when pizza is no longer available.",
+      "examples": [
+        "2019-12-31"
+      ],
+      "type": "string",
+      "format": "date-time"
+    },
+    "reviews": {
+      "title": "Favourable customer reviews",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "title": "Who wrote the review",
+            "examples": [
+              "joebloggs4"
+            ],
+            "type": "string"
+          },
+          "review": {
+            "title": "Something nice to say",
+            "examples": [
+              "Lovely stuff!"
+            ],
+            "type": "string"
+          },
+          "rating": {
+            "title": "Star rating (0=Awful 5=Great)",
+            "default": 5,
+            "examples": [
+              5
+            ],
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 5
+          }
+        },
+        "required": [
+          "username",
+          "review",
+          "rating"
+        ]
+      }
+    }
+  },
+  "required": [
+    "code",
+    "label",
+    "popularitySeq",
+    "imageUri",
+    "vegetarian"
+  ]
+}
+
+*/
+
 ```
 
 ## Testing
