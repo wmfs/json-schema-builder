@@ -3,6 +3,7 @@
 [![Tymly Package](https://img.shields.io/badge/tymly-package-blue.svg)](https://tymly.io/)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/json-schema-builder.svg)](https://www.npmjs.com/package/@wmfs/json-schema-builder)
 [![Build Status](https://travis-ci.org/wmfs/json-schema-builder.svg?branch=master)](https://travis-ci.org/wmfs/json-schema-builder)
+[![codecov](https://codecov.io/gh/wmfs/json-schema-builder/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/json-schema-builder)
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/json-schema-builder/badge)](https://www.codefactor.io/repository/github/wmfs/json-schema-builder)
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
