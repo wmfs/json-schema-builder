@@ -22,6 +22,7 @@
     "lib": "lib"
   },
   "dependencies": {
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "chai": "4.2.0",

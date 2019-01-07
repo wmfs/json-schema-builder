@@ -43,6 +43,18 @@ describe('Basic builder tests', function () {
             title: 'URI to an enticing photo of the pizza'
           },
           {
+            key: 'crusts',
+            typeHint: 'enum',
+            values: [
+              'Normal',
+              'Stuffed',
+              'Hot Dog'
+            ],
+            default: ['Normal', 'Stuffed'],
+            title: 'Offer which crust options?',
+            minItems: 1
+          },
+          {
             key: 'vegetarian',
             typeHint: 'boolean',
             required: true,
@@ -141,6 +153,20 @@ describe('Basic builder tests', function () {
             title: 'Is the pizza suitable for vegetarians?',
             default: false,
             type: 'boolean'
+          },
+          crusts: {
+            title: 'Offer which crust options?',
+            default: [
+              'Normal',
+              'Stuffed'
+            ],
+            type: 'string',
+            enum: [
+              'Normal',
+              'Stuffed',
+              'Hot Dog'
+            ],
+            minItems: 1
           },
           allergens: {
             title: 'List of allergens present in pizza',
