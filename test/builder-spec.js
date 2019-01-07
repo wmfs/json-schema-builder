@@ -52,7 +52,7 @@ describe('Basic builder tests', function () {
             ],
             default: ['Normal', 'Stuffed'],
             title: 'Offer which crust options?',
-            minItems: 1
+            required: true
           },
           {
             key: 'vegetarian',
@@ -165,8 +165,7 @@ describe('Basic builder tests', function () {
               'Normal',
               'Stuffed',
               'Hot Dog'
-            ],
-            minItems: 1
+            ]
           },
           allergens: {
             title: 'List of allergens present in pizza',
@@ -235,6 +234,7 @@ describe('Basic builder tests', function () {
           'label',
           'popularitySeq',
           'imageUri',
+          'crusts',
           'vegetarian'
         ]
       }
