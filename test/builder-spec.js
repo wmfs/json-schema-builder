@@ -19,7 +19,8 @@ describe('Basic builder tests', function () {
             required: true,
             title: 'Unique code of the pizza',
             minLength: 3,
-            maxLength: 15
+            maxLength: 15,
+            primary: true
           },
           {
             key: 'label',
@@ -236,6 +237,9 @@ describe('Basic builder tests', function () {
           'imageUri',
           'crusts',
           'vegetarian'
+        ],
+        primaryKey: [
+          'code'
         ]
       }
     )
