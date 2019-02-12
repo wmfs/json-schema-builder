@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/wmfs/json-schema-builder/compare/v1.2.0...v1.3.0) (2019-02-12)
+
+
+### ✨ Features
+
+* Refactor to use tymly-data-types. ([20ddb54](https://github.com/wmfs/json-schema-builder/commit/20ddb54))
+
+
+### 🐛 Bug Fixes
+
+* Dependency bump. ([2bf8f6e](https://github.com/wmfs/json-schema-builder/commit/2bf8f6e))
+* Remove debug logging. ([b9915cd](https://github.com/wmfs/json-schema-builder/commit/b9915cd))
+
 # [1.2.0](https://github.com/wmfs/json-schema-builder/compare/v1.1.0...v1.2.0) (2019-01-17)
 
 
