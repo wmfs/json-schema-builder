@@ -1,20 +1,20 @@
 /* eslint-env mocha */
 
 const expect = require('chai').expect
-const makeJsonSchema = require('../lib/json-schema-builder')
+const jsonSchemaBuilder = require('../lib/json-schema-builder')
 
 describe('Basic builder tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('Convert some basic stuff', () => {
-    const jsonSchema = makeJsonSchema(
+    const jsonSchema = jsonSchemaBuilder.dslToJsonSchema(
       {
         title: 'Pizza',
         description: 'A model for storing details of a pizza (recipe, price etc.)',
         propertyHints: [
           {
             key: 'code',
-            typeHint: 'string',
+            typeHint: 'text',
             example: 'CHEESE_TOMATO',
             required: true,
             title: 'Unique code of the pizza',
@@ -24,7 +24,7 @@ describe('Basic builder tests', function () {
           },
           {
             key: 'label',
-            typeHint: 'string',
+            typeHint: 'text',
             required: true,
             example: 'Cheese & Tomato',
             title: 'Customer-facing label'
@@ -45,13 +45,14 @@ describe('Basic builder tests', function () {
           },
           {
             key: 'crusts',
-            typeHint: 'enum',
-            values: [
-              'Normal',
-              'Stuffed',
-              'Hot Dog'
-            ],
-            default: ['Normal', 'Stuffed'],
+            typeHint: 'text',
+            choiceSet: {
+              NORMAL: 'Normal',
+              STUFFED: 'Stuffed',
+              HOT_DOG: 'Hot Dog'
+            },
+            multiple: true,
+            default: ['NORMAL', 'STUFFED'],
             title: 'Offer which crust options?',
             required: true
           },
@@ -64,7 +65,7 @@ describe('Basic builder tests', function () {
           },
           {
             key: 'allergens',
-            typeHint: 'string',
+            typeHint: 'text',
             example: ['Gluten', 'Wheat', 'Milk'],
             multiple: true,
             uniqueItems: true,
@@ -86,14 +87,14 @@ describe('Basic builder tests', function () {
               {
                 key: 'username',
                 example: 'joebloggs4',
-                typeHint: 'string',
+                typeHint: 'text',
                 required: true,
                 title: 'Who wrote the review'
               },
               {
                 key: 'review',
                 example: 'Lovely stuff!',
-                typeHint: 'string',
+                typeHint: 'text',
                 required: true,
                 title: 'Something nice to say'
               },
@@ -158,15 +159,18 @@ describe('Basic builder tests', function () {
           crusts: {
             title: 'Offer which crust options?',
             default: [
-              'Normal',
-              'Stuffed'
+              'NORMAL',
+              'STUFFED'
             ],
-            type: 'string',
-            enum: [
-              'Normal',
-              'Stuffed',
-              'Hot Dog'
-            ]
+            type: 'array',
+            items: {
+              type: 'string',
+              enum: [
+                'NORMAL',
+                'STUFFED',
+                'HOT_DOG'
+              ]
+            }
           },
           allergens: {
             title: 'List of allergens present in pizza',
