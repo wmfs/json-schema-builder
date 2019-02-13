@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/wmfs/json-schema-builder/compare/v1.3.0...v1.4.0) (2019-02-13)
+
+
+### 🛠 Builds
+
+* **deps:** Bump tymly-data-types ([82538a6](https://github.com/wmfs/json-schema-builder/commit/82538a6))
+
+
+### 📦 Code Refactoring
+
+* Pull exports together ([cd98c96](https://github.com/wmfs/json-schema-builder/commit/cd98c96))
+
 # [1.3.0](https://github.com/wmfs/json-schema-builder/compare/v1.2.0...v1.3.0) (2019-02-12)
 
 
