@@ -128,6 +128,7 @@ describe('Basic builder tests', function () {
               'CHEESE_TOMATO'
             ],
             type: 'string',
+            typeHint: 'text',
             minLength: 3,
             maxLength: 15
           },
@@ -136,11 +137,13 @@ describe('Basic builder tests', function () {
             examples: [
               'Cheese & Tomato'
             ],
-            type: 'string'
+            type: 'string',
+            typeHint: 'text'
           },
           popularitySeq: {
             title: 'Integer value to order lists by',
             type: 'integer',
+            typeHint: 'integer',
             minimum: 1
           },
           imageUri: {
@@ -149,12 +152,14 @@ describe('Basic builder tests', function () {
               'https://tinyurl.com/y8r5bbu5'
             ],
             type: 'string',
+            typeHint: 'uri',
             format: 'uri'
           },
           vegetarian: {
             title: 'Is the pizza suitable for vegetarians?',
             default: false,
-            type: 'boolean'
+            type: 'boolean',
+            typeHint: 'boolean'
           },
           crusts: {
             title: 'Offer which crust options?',
@@ -163,6 +168,7 @@ describe('Basic builder tests', function () {
               'STUFFED'
             ],
             type: 'array',
+            typeHint: 'text',
             items: {
               type: 'string',
               enum: [
@@ -175,6 +181,7 @@ describe('Basic builder tests', function () {
           allergens: {
             title: 'List of allergens present in pizza',
             type: 'array',
+            typeHint: 'text',
             examples: [
               [
                 'Gluten',
@@ -190,6 +197,7 @@ describe('Basic builder tests', function () {
           availabilityEnd: {
             title: 'Date when pizza is no longer available.',
             type: 'string',
+            typeHint: 'date',
             examples: [
               '2019-12-31'
             ],
@@ -198,12 +206,14 @@ describe('Basic builder tests', function () {
           reviews: {
             title: 'Favourable customer reviews',
             type: 'array',
+            typeHint: 'object',
             items: {
               type: 'object',
               properties: {
                 username: {
                   title: 'Who wrote the review',
                   type: 'string',
+                  typeHint: 'text',
                   examples: [
                     'joebloggs4'
                   ]
@@ -211,6 +221,7 @@ describe('Basic builder tests', function () {
                 review: {
                   title: 'Something nice to say',
                   type: 'string',
+                  typeHint: 'text',
                   examples: [
                     'Lovely stuff!'
                   ]
@@ -222,6 +233,7 @@ describe('Basic builder tests', function () {
                     5
                   ],
                   type: 'integer',
+                  typeHint: 'integer',
                   minimum: 0,
                   maximum: 5
                 }
