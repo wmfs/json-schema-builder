@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/wmfs/json-schema-builder/compare/v1.4.0...v1.5.0) (2019-02-14)
+
+
+### ✨ Features
+
+* Include typeHint in model output ([11d080b](https://github.com/wmfs/json-schema-builder/commit/11d080b))
+
 # [1.4.0](https://github.com/wmfs/json-schema-builder/compare/v1.3.0...v1.4.0) (2019-02-13)
 
 
