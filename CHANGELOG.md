@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/wmfs/json-schema-builder/compare/v1.5.0...v1.6.0) (2019-06-05)
+
+
+### ✨ Features
+
+* update package for workbook to cardscript conversion ([250e5f8](https://github.com/wmfs/json-schema-builder/commit/250e5f8))
+
 # [1.5.0](https://github.com/wmfs/json-schema-builder/compare/v1.4.0...v1.5.0) (2019-02-14)
 
 
