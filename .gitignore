@@ -105,6 +105,8 @@ scratch.txt
 package-lock.json
 
 output/
+fixtures/
+w2c-test.js
 
 # Ignore Rush temporary files
 /common/temp/**
