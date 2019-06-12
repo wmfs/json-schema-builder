@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/wmfs/json-schema-builder/compare/v1.6.0...v1.7.0) (2019-06-12)
+
+
+### ✨ Features
+
+* add compatibility for cardscript showWhen parsing ([8a5d496](https://github.com/wmfs/json-schema-builder/commit/8a5d496))
+
 # [1.6.0](https://github.com/wmfs/json-schema-builder/compare/v1.5.0...v1.6.0) (2019-06-05)
 
 
