@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/wmfs/json-schema-builder/compare/v1.7.0...v1.8.0) (2019-06-20)
+
+
+### ✨ Features
+
+* add in compatibility for validation, tooltips and autosetters ([b0fa738](https://github.com/wmfs/json-schema-builder/commit/b0fa738))
+
 # [1.7.0](https://github.com/wmfs/json-schema-builder/compare/v1.6.0...v1.7.0) (2019-06-12)
 
 
