@@ -113,7 +113,7 @@ describe('Basic builder tests', function () {
         ]
       }
     )
-    console.log(JSON.stringify(jsonSchema, null, 2))
+    // console.log(JSON.stringify(jsonSchema, null, 2))
 
     expect(jsonSchema).to.eql(
       {
