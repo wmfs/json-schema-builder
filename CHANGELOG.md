@@ -1,3 +1,39 @@
+# [1.9.0](https://github.com/wmfs/json-schema-builder/compare/v1.8.0...v1.9.0) (2020-01-27)
+
+
+### ✨ Features
+
+* Add in w2c modules ([ed205e2](https://github.com/wmfs/json-schema-builder/commit/ed205e29adba8bd67478e3e80ba82e2f160b2c9a))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump packages ([b77b5ea](https://github.com/wmfs/json-schema-builder/commit/b77b5eae9fdf62024a4f6c17963e7ec4f94b364b))
+* **deps-dev:** bump standard from 12.0.1 to 14.3.1 ([b09f947](https://github.com/wmfs/json-schema-builder/commit/b09f94796115e8bccf3810b22cf55d7fd8b8823e))
+* **deps-dev:** update dev dependancies ([dc0c6e1](https://github.com/wmfs/json-schema-builder/commit/dc0c6e1eb7bd988e243f5b4deb39796fbc894360))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge ([401fb22](https://github.com/wmfs/json-schema-builder/commit/401fb22dedc11affde6c46612f15090e0add87c5))
+
+
+### 🚨 Tests
+
+* comment out test due to missing fixtures ([52944a3](https://github.com/wmfs/json-schema-builder/commit/52944a326a946fc8ae35e9d58d0faeaee2c8e33a))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([6f73a42](https://github.com/wmfs/json-schema-builder/commit/6f73a4235a11875bc2b3a8f20060c50fdcd772bf))
+* **travis:** Remove Travis config ([08eb8a4](https://github.com/wmfs/json-schema-builder/commit/08eb8a4b7bce0639ce83a7d4139ae3a4247f2a47))
+
+
+### 💎 Styles
+
+* Do not access Object.prototype method 'hasOwnProperty' from target object ([1fa9be8](https://github.com/wmfs/json-schema-builder/commit/1fa9be838800cb50f0dd291a6b9c6ed2456d9367))
+* standard --fix ([2dd9e96](https://github.com/wmfs/json-schema-builder/commit/2dd9e962ae89db0d6510805b7dd7d872f1725b95))
+
 # [1.8.0](https://github.com/wmfs/json-schema-builder/compare/v1.7.0...v1.8.0) (2019-06-20)
 
 
