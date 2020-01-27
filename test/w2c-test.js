@@ -28,7 +28,7 @@ const convert = function (json, callback) {
 }
 
 describe('Basic builder tests', function () {
-  it('Convert some basic stuff', async () => {
+  xit('Convert some basic stuff', async () => {
     const file = await readFile(path.resolve(__dirname, 'fixtures', 'irs-workbook.json'))
     const json = JSON.parse(file)
     convert(json, (err) => {
