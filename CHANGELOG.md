@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/wmfs/json-schema-builder/compare/v1.12.0...v1.13.0) (2020-01-28)
+
+
+### 🛠 Builds
+
+* **deps:** bump dottie from 2.0.1 to 2.0.2 ([7c465f2](https://github.com/wmfs/json-schema-builder/commit/7c465f21203b5b481ecb2fb2d8f33eb3c75fe35f))
+
 # [1.12.0](https://github.com/wmfs/json-schema-builder/compare/v1.11.0...v1.12.0) (2020-01-28)
 
 
