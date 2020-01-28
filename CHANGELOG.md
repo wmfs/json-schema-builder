@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/wmfs/json-schema-builder/compare/v1.10.0...v1.11.0) (2020-01-28)
+
+
+### 🛠 Builds
+
+* **deps:** [security] bump lodash from 4.17.11 to 4.17.15 ([46fa094](https://github.com/wmfs/json-schema-builder/commit/46fa094d0511182e33426176d19a83fc6f1fb0af))
+
 # [1.10.0](https://github.com/wmfs/json-schema-builder/compare/v1.9.0...v1.10.0) (2020-01-28)
 
 
