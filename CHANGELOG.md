@@ -1,3 +1,14 @@
+# [1.10.0](https://github.com/wmfs/json-schema-builder/compare/v1.9.0...v1.10.0) (2020-01-28)
+
+
+### 🛠 Builds
+
+* **deps:** bump mem-fs-editor from 4.0.0 to 6.0.0 ([768cfd5](https://github.com/wmfs/json-schema-builder/commit/768cfd5a41528d26d68ca75b928228f0054535fb))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([07a2545](https://github.com/wmfs/json-schema-builder/commit/07a25457f13290314b61b4bb3eff1a76d76d8f73))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([941e787](https://github.com/wmfs/json-schema-builder/commit/941e7873cce182db98cf915ed0091b95b2129d5f))
+* **deps-dev:** bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([6aee54e](https://github.com/wmfs/json-schema-builder/commit/6aee54e9747aa080ef04ecba8ceced9fe0ab0ed3))
+* **deps-dev:** bump mocha from 6.2.2 to 7.0.1 ([8b58441](https://github.com/wmfs/json-schema-builder/commit/8b5844137f9a7aba795298ba9e7a65a0027479ad))
+
 # [1.9.0](https://github.com/wmfs/json-schema-builder/compare/v1.8.0...v1.9.0) (2020-01-27)
 
 
