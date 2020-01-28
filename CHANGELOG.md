@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/wmfs/json-schema-builder/compare/v1.11.0...v1.12.0) (2020-01-28)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-data-types from 1.3.0 to 1.5.0 ([c037398](https://github.com/wmfs/json-schema-builder/commit/c03739893305b6a19678131336252415d49d51bc))
+
 # [1.11.0](https://github.com/wmfs/json-schema-builder/compare/v1.10.0...v1.11.0) (2020-01-28)
 
 
