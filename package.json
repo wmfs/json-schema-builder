@@ -34,7 +34,7 @@
     "conventional-changelog-metahub": "4.0.1",
     "cz-conventional-changelog": "3.2.0",
     "mocha": "7.2.0",
-    "nyc": "15.0.1",
+    "nyc": "15.1.0",
     "standard": "14.3.4",
     "semantic-release": "17.0.8",
     "@semantic-release/changelog": "5.0.1",
