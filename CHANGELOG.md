@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/wmfs/json-schema-builder/compare/v1.14.0...v1.15.0) (2020-07-16)
+
+
+### 🛠 Builds
+
+* **deps:** bump mem-fs from 1.1.3 to 1.2.0 ([a1af61e](https://github.com/wmfs/json-schema-builder/commit/a1af61e7e5afa2fd7d10822b8178c892dd420ba3))
+
 # [1.14.0](https://github.com/wmfs/json-schema-builder/compare/v1.13.0...v1.14.0) (2020-07-13)
 
 
