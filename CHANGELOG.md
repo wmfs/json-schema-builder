@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/wmfs/json-schema-builder/compare/v1.15.0...v1.16.0) (2020-07-16)
+
+
+### 🛠 Builds
+
+* **deps:** bump mem-fs-editor from 6.0.0 to 7.0.1 ([3f39294](https://github.com/wmfs/json-schema-builder/commit/3f3929439c845f49ae49513d118e389621f7bd86))
+
 # [1.15.0](https://github.com/wmfs/json-schema-builder/compare/v1.14.0...v1.15.0) (2020-07-16)
 
 
