@@ -26,7 +26,7 @@
     "lodash": "4.17.19",
     "dottie": "2.0.2",
     "mem-fs": "1.2.0",
-    "mem-fs-editor": "6.0.0"
+    "mem-fs-editor": "7.0.1"
   },
   "devDependencies": {
     "chai": "4.2.0",
