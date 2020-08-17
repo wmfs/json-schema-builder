@@ -1,3 +1,19 @@
+# [1.17.0](https://github.com/wmfs/json-schema-builder/compare/v1.16.0...v1.17.0) (2020-08-17)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.19 to 4.17.20 ([7201a29](https://github.com/wmfs/json-schema-builder/commit/7201a299854cc73cfcca223d93aa38c2e28e46e5))
+* **deps-dev:** bump codecov from 3.7.0 to 3.7.1 ([700f1cb](https://github.com/wmfs/json-schema-builder/commit/700f1cbc2d7c942367ccb501888199f474c65b68))
+* **deps-dev:** bump codecov from 3.7.1 to 3.7.2 ([cb78c58](https://github.com/wmfs/json-schema-builder/commit/cb78c587529acaeacaa3fd94cd5a59cb3d08a2e0))
+* **deps-dev:** bump mocha from 8.0.1 to 8.1.0 ([e62e045](https://github.com/wmfs/json-schema-builder/commit/e62e0450eac6f509d0af6b9a61c2e7e62781d436))
+* **deps-dev:** bump mocha from 8.1.0 to 8.1.1 ([bc99da7](https://github.com/wmfs/json-schema-builder/commit/bc99da7c613837de26428bb36c8c34601981751f))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([6379016](https://github.com/wmfs/json-schema-builder/commit/63790160ac6651be8bc65b2a231d2259f667dd56))
+
 # [1.16.0](https://github.com/wmfs/json-schema-builder/compare/v1.15.0...v1.16.0) (2020-07-16)
 
 
