@@ -1,3 +1,40 @@
+# [1.18.0](https://github.com/wmfs/json-schema-builder/compare/v1.17.0...v1.18.0) (2021-01-12)
+
+
+### 🛠 Builds
+
+* **deps:** bump mem-fs-editor from 7.0.1 to 8.0.0 ([38b98e7](https://github.com/wmfs/json-schema-builder/commit/38b98e7894df0dd87ebfe96a6030e497c22e23fa))
+* **deps-dev:** bump codecov from 3.7.2 to 3.8.0 ([c46ba6b](https://github.com/wmfs/json-schema-builder/commit/c46ba6b56fc014871fda81d232a6a0da9e062b93))
+* **deps-dev:** bump codecov from 3.8.0 to 3.8.1 ([bf60a2e](https://github.com/wmfs/json-schema-builder/commit/bf60a2e42400a0fc455726b36106dcd8b75954d1))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.0 to 3.2.1 ([70ce763](https://github.com/wmfs/json-schema-builder/commit/70ce76353fe8cecb4b0583e4bbd0268533872623))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.1 to 3.3.0 ([f800715](https://github.com/wmfs/json-schema-builder/commit/f800715f0012aa969f078a1152cf05e8b665c033))
+* **deps-dev:** bump mocha from 8.1.1 to 8.1.2 ([e5a8a0c](https://github.com/wmfs/json-schema-builder/commit/e5a8a0cf6bae763f535ff92b116232dd78db6dcf))
+* **deps-dev:** bump mocha from 8.1.2 to 8.1.3 ([826e513](https://github.com/wmfs/json-schema-builder/commit/826e513d9a4cf9eec3cf05a6be5a566b96af1379))
+* **deps-dev:** bump mocha from 8.1.3 to 8.2.0 ([1af058d](https://github.com/wmfs/json-schema-builder/commit/1af058d24fe23e232fc4ecab3c6a482c099341e9))
+* **deps-dev:** bump mocha from 8.2.0 to 8.2.1 ([45caaa1](https://github.com/wmfs/json-schema-builder/commit/45caaa1bee8c4ea3acec3691c2cb38361d8b0df9))
+* **deps-dev:** bump semantic-release from 17.1.1 to 17.1.2 ([b36e1de](https://github.com/wmfs/json-schema-builder/commit/b36e1deca3f17c843b89b20407afb3bb35b91351))
+* **deps-dev:** bump semantic-release from 17.1.2 to 17.2.0 ([919caf3](https://github.com/wmfs/json-schema-builder/commit/919caf3f7d4303eec5dbb930cbb10b57f7136f31))
+* **deps-dev:** bump semantic-release from 17.2.0 to 17.2.1 ([3e0f3d2](https://github.com/wmfs/json-schema-builder/commit/3e0f3d27dd65dc24f575e0ac2366d2821d3ccaf8))
+* **deps-dev:** bump semantic-release from 17.2.1 to 17.2.2 ([32af717](https://github.com/wmfs/json-schema-builder/commit/32af717d9ca08b4f778cdc41ccfba9633529aece))
+* **deps-dev:** bump semantic-release from 17.2.2 to 17.2.3 ([7dbe4d8](https://github.com/wmfs/json-schema-builder/commit/7dbe4d8f639e8587d17cbf700905b8f80698c083))
+* **deps-dev:** bump semantic-release from 17.2.3 to 17.2.4 ([92f2263](https://github.com/wmfs/json-schema-builder/commit/92f22639587d71110ef3f45b7d6e884d9617c88a))
+* **deps-dev:** bump semantic-release from 17.2.4 to 17.3.0 ([5448469](https://github.com/wmfs/json-schema-builder/commit/5448469a6796a08afa80467a1c7520ec90424af2))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([f6bf3a0](https://github.com/wmfs/json-schema-builder/commit/f6bf3a0398d428e65471601cc4c8e625ef4b43aa))
+* **deps-dev:** bump standard from 14.3.4 to 15.0.0 ([6493e4c](https://github.com/wmfs/json-schema-builder/commit/6493e4c9b4abd8a71d07d750c63e30e7219fbb0b))
+* **deps-dev:** bump standard from 15.0.0 to 15.0.1 ([a643276](https://github.com/wmfs/json-schema-builder/commit/a6432769896383473fd18e7410097f91064fd53a))
+* **deps-dev:** bump standard from 15.0.1 to 16.0.0 ([43cce84](https://github.com/wmfs/json-schema-builder/commit/43cce849b0cd2326e391a7433e74b0c260540a23))
+* **deps-dev:** bump standard from 16.0.0 to 16.0.1 ([7089aaa](https://github.com/wmfs/json-schema-builder/commit/7089aaa54784aa579a58e4e9a54f09dfdded9d0e))
+* **deps-dev:** bump standard from 16.0.1 to 16.0.2 ([c5ee630](https://github.com/wmfs/json-schema-builder/commit/c5ee6307deebe2d32f56d1085bc0c9e55c9e5f1b))
+* **deps-dev:** bump standard from 16.0.2 to 16.0.3 ([8e43bb9](https://github.com/wmfs/json-schema-builder/commit/8e43bb9a84856d02de15ced9c07ccf2de79e01d7))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([7f939e9](https://github.com/wmfs/json-schema-builder/commit/7f939e94749ddacd49d3052c3bde2d4ebd2fa03a))
+* **circle:** cache dependencies [ch2770] ([241322f](https://github.com/wmfs/json-schema-builder/commit/241322f003ef3a67b7da83c1473eb22d9c4c0888))
+* **circle:** separate linting job [ch1009] ([0f916ce](https://github.com/wmfs/json-schema-builder/commit/0f916ceba91187ae2507e8495a96002b1cd83745))
+* **circle:** update build environment variable context name [ch2771] ([4d4dafc](https://github.com/wmfs/json-schema-builder/commit/4d4dafc8e6b09547dcc9f3c18342cd83b3931c14))
+
 # [1.17.0](https://github.com/wmfs/json-schema-builder/compare/v1.16.0...v1.17.0) (2020-08-17)
 
 
