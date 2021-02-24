@@ -1,3 +1,20 @@
+# [1.19.0](https://github.com/wmfs/json-schema-builder/compare/v1.18.0...v1.19.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([05373d2](https://github.com/wmfs/json-schema-builder/commit/05373d268c220d6fbbf72da761366593e736584e))
+* **deps-dev:** bump chai from 4.2.0 to 4.3.0 ([a50ebde](https://github.com/wmfs/json-schema-builder/commit/a50ebde7ed2aa18111a5ae7064bfcc64adc5941d))
+* **deps-dev:** bump mocha from 8.2.1 to 8.3.0 ([1bca038](https://github.com/wmfs/json-schema-builder/commit/1bca038c38c489321472d4355717da84e05b6177))
+* **deps-dev:** bump semantic-release from 17.3.1 to 17.3.2 ([e4b3b78](https://github.com/wmfs/json-schema-builder/commit/e4b3b78ed1e86bc639780752fd4237246b5153fd))
+* **deps-dev:** bump semantic-release from 17.3.2 to 17.3.3 ([975acc6](https://github.com/wmfs/json-schema-builder/commit/975acc6fa9025fbd7fa298e7b9c138ae136e6ad9))
+* **deps-dev:** bump semantic-release from 17.3.3 to 17.3.4 ([8fd06fb](https://github.com/wmfs/json-schema-builder/commit/8fd06fb3b5ffd44a8172761af0fcad8f97d68d85))
+* **deps-dev:** bump semantic-release from 17.3.4 to 17.3.5 ([5270fdd](https://github.com/wmfs/json-schema-builder/commit/5270fdd0f69496cc734fea384661fc077820ce43))
+* **deps-dev:** bump semantic-release from 17.3.5 to 17.3.6 ([90d158d](https://github.com/wmfs/json-schema-builder/commit/90d158dc7ee419a775255eb881af835fece53629))
+* **deps-dev:** bump semantic-release from 17.3.6 to 17.3.7 ([660ef85](https://github.com/wmfs/json-schema-builder/commit/660ef85248c8f499255cd4254f89e1eb675f547d))
+* **deps-dev:** bump semantic-release from 17.3.7 to 17.3.8 ([8b11a0d](https://github.com/wmfs/json-schema-builder/commit/8b11a0dc112b86dd172d69b60e61215568ce8341))
+* **deps-dev:** bump semantic-release from 17.3.8 to 17.3.9 ([76cd06c](https://github.com/wmfs/json-schema-builder/commit/76cd06cf75152f106600905523acc563deaae129))
+
 # [1.18.0](https://github.com/wmfs/json-schema-builder/compare/v1.17.0...v1.18.0) (2021-01-12)
 
 
