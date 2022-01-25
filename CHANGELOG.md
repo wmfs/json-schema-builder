@@ -1,3 +1,51 @@
+# [1.20.0](https://github.com/wmfs/json-schema-builder/compare/v1.19.0...v1.20.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump chai from 4.3.0 to 4.3.1 ([fcab0d3](https://github.com/wmfs/json-schema-builder/commit/fcab0d324bf0bc6fe3f48f40bc41ae3331f93d30))
+* **deps-dev:** bump chai from 4.3.1 to 4.3.2 ([d389171](https://github.com/wmfs/json-schema-builder/commit/d38917142c308ad5abefe5656737bb19e8ef9586))
+* **deps-dev:** bump chai from 4.3.2 to 4.3.3 ([76a961b](https://github.com/wmfs/json-schema-builder/commit/76a961bdad1f3683f4dea029bc1a043ecf205650))
+* **deps-dev:** bump chai from 4.3.3 to 4.3.4 ([e2838fb](https://github.com/wmfs/json-schema-builder/commit/e2838fbbbcdbb6a130be95ab74a7a97b07d8853b))
+* **deps-dev:** bump codecov from 3.8.1 to 3.8.2 ([7e7d158](https://github.com/wmfs/json-schema-builder/commit/7e7d158520de2d42b8110c4ca267da2c2608da8b))
+* **deps-dev:** bump codecov from 3.8.2 to 3.8.3 ([8e9bb62](https://github.com/wmfs/json-schema-builder/commit/8e9bb62c29d62fe21fd5a88033fca60dedec8b0b))
+* **deps-dev:** bump mocha from 8.3.0 to 8.3.1 ([a1ccd0c](https://github.com/wmfs/json-schema-builder/commit/a1ccd0c5250c3803033d17f72cba38df7e956883))
+* **deps-dev:** bump mocha from 8.3.1 to 8.3.2 ([e18c952](https://github.com/wmfs/json-schema-builder/commit/e18c952add9c2079be74f51094ccc1c678a36c9b))
+* **deps-dev:** bump mocha from 8.3.2 to 8.4.0 ([275e64c](https://github.com/wmfs/json-schema-builder/commit/275e64c837db7af563ec02d75fb5b0245660e62e))
+* **deps-dev:** bump mocha from 8.4.0 to 9.0.0 ([84ba3ff](https://github.com/wmfs/json-schema-builder/commit/84ba3ffdfa2871ce32fb011c4ff733e3eae0f94e))
+* **deps-dev:** bump mocha from 9.0.0 to 9.0.1 ([8e17c96](https://github.com/wmfs/json-schema-builder/commit/8e17c96a43e5636bb419ff9ee55272a9cdae6592))
+* **deps-dev:** bump mocha from 9.0.1 to 9.0.2 ([ef9d50e](https://github.com/wmfs/json-schema-builder/commit/ef9d50eb3d27273a60ceaf2e861b7626c3215d2e))
+* **deps-dev:** bump mocha from 9.0.2 to 9.0.3 ([245b623](https://github.com/wmfs/json-schema-builder/commit/245b6238ec8122b75058be8cd3452160cc233876))
+* **deps-dev:** bump semantic-release from 17.3.9 to 17.4.0 ([5694107](https://github.com/wmfs/json-schema-builder/commit/5694107d3827a735a0b5409e6429f3cec6d92109))
+* **deps-dev:** bump semantic-release from 17.4.0 to 17.4.1 ([40130df](https://github.com/wmfs/json-schema-builder/commit/40130dfb257fbb5570c986a752b4f7dee9238548))
+* **deps-dev:** bump semantic-release from 17.4.1 to 17.4.2 ([0cb2a94](https://github.com/wmfs/json-schema-builder/commit/0cb2a943e7ce8a04c8a772a0cfc6f0007b4f48c7))
+* **deps-dev:** bump semantic-release from 17.4.2 to 17.4.3 ([7814bf3](https://github.com/wmfs/json-schema-builder/commit/7814bf38c42a571bf1c2957287d2eb8c616969be))
+* **deps-dev:** bump semantic-release from 17.4.3 to 17.4.4 ([14e8944](https://github.com/wmfs/json-schema-builder/commit/14e8944ce3abb45384986e4e5eeb1bdea07bae4b))
+* **deps-dev:** pin dependency rimraf to 3.0.2 ([cdc2b40](https://github.com/wmfs/json-schema-builder/commit/cdc2b4048e0cae775ec0a31a09f3e725cbcc4223))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6 ([0ff697c](https://github.com/wmfs/json-schema-builder/commit/0ff697ca8849f2d2382503d73ec786b452189c2c))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v10 ([775669e](https://github.com/wmfs/json-schema-builder/commit/775669edea1e7f222d8bb9bfaf9eb46061d079b8))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v9.0.1 ([0be3dad](https://github.com/wmfs/json-schema-builder/commit/0be3dad72af2c32e4635e02912e12a6054f29115))
+* **deps-dev:** update dependency mocha to v9.1.0 ([0b11d0f](https://github.com/wmfs/json-schema-builder/commit/0b11d0faff9dbd07a11393abf14ed918eb44c377))
+* **deps-dev:** update dependency mocha to v9.1.1 ([f8b923a](https://github.com/wmfs/json-schema-builder/commit/f8b923af29d8b7bf2c72baf7af1d82798c5a744f))
+* **deps-dev:** update dependency mocha to v9.1.2 ([5de79af](https://github.com/wmfs/json-schema-builder/commit/5de79af3aecae6f24f5f518f1da3e82353ed7055))
+* **deps-dev:** update dependency mocha to v9.1.3 ([8bc02de](https://github.com/wmfs/json-schema-builder/commit/8bc02ded94a9a7f5eb229ac879dcaeee6174c97f))
+* **deps-dev:** update dependency mocha to v9.1.4 ([127244a](https://github.com/wmfs/json-schema-builder/commit/127244a0e0456bba3dc6f5775f9c48eb389de0b2))
+* **deps-dev:** update dependency mocha to v9.2.0 ([b475337](https://github.com/wmfs/json-schema-builder/commit/b4753371dadb567387c955919e5cf8b300431854))
+* **deps-dev:** update dependency semantic-release to v17.4.5 ([a499cd0](https://github.com/wmfs/json-schema-builder/commit/a499cd0f310ac514170f23394f253ace1aeb149c))
+* **deps-dev:** update dependency semantic-release to v17.4.6 ([acc1727](https://github.com/wmfs/json-schema-builder/commit/acc17270660d6317c1dea7ba1efd2478d72f3084))
+* **deps-dev:** update dependency semantic-release to v17.4.7 ([d9da3fa](https://github.com/wmfs/json-schema-builder/commit/d9da3fa55ba4b3a1b4f116a3fdbd2b88b361cda8))
+* **deps-dev:** update dependency semantic-release to v18 ([39370bd](https://github.com/wmfs/json-schema-builder/commit/39370bdc82812a05515ca5d82c119bdc303ab996))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([2179cee](https://github.com/wmfs/json-schema-builder/commit/2179cee17abfb70779d3731df75d27048b6eb660))
+* **deps-dev:** update dependency semantic-release to v19 ([6ba403f](https://github.com/wmfs/json-schema-builder/commit/6ba403f31b7d6693ec1fc3dd1486fb3bd3f1903d))
+* **deps-dev:** update dependency standard to v16.0.4 ([483fab6](https://github.com/wmfs/json-schema-builder/commit/483fab6b10345999de6838ba259cdd5f3dc08ef1))
+* **deps-dev:** update semantic-release monorepo ([9f2d74f](https://github.com/wmfs/json-schema-builder/commit/9f2d74f5e18db58c08436f10622d742c0513c39a))
+* **deps:** update dependency mem-fs-editor to v8.1.2 ([5f14a2f](https://github.com/wmfs/json-schema-builder/commit/5f14a2f91b90ca8e9f753ad445ad77363765a638))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([2959987](https://github.com/wmfs/json-schema-builder/commit/2959987175e2da4128ba8c09c464f0c4fb2d8926))
+
 # [1.19.0](https://github.com/wmfs/json-schema-builder/compare/v1.18.0...v1.19.0) (2021-02-24)
 
 
