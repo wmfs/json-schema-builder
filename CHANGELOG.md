@@ -1,3 +1,18 @@
+# [1.21.0](https://github.com/wmfs/json-schema-builder/compare/v1.20.0...v1.21.0) (2022-11-01)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency chai to v4.3.6 ([531b6cf](https://github.com/wmfs/json-schema-builder/commit/531b6cf3b47a0497757ce8b15e6207d7bcd2847c))
+* **deps-dev:** update dependency mocha to v10 ([bb084b5](https://github.com/wmfs/json-schema-builder/commit/bb084b582a2637a05caba0c7a4adb541ae8a5235))
+* **deps-dev:** update dependency mocha to v10.1.0 ([b9190da](https://github.com/wmfs/json-schema-builder/commit/b9190dabac36b2b6e4c8e51c4860bc53f1bbcfe5))
+* **deps-dev:** update dependency mocha to v9.2.1 ([e8d0076](https://github.com/wmfs/json-schema-builder/commit/e8d0076984c75bbe4ed545873e603ea97e18bbd5))
+* **deps-dev:** update dependency mocha to v9.2.2 ([ef7dd3d](https://github.com/wmfs/json-schema-builder/commit/ef7dd3db3a9cab0caa72a056e0a5a987464d1913))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([d5a04be](https://github.com/wmfs/json-schema-builder/commit/d5a04bea88d49a2eefe3baeccc4f2ace4fbfae68))
+* **deps-dev:** update dependency semantic-release to v19.0.5 ([c7ccb06](https://github.com/wmfs/json-schema-builder/commit/c7ccb06b0b066a7dfac64902d337d8f558167e31))
+* **deps-dev:** update dependency standard to v17 ([ab21704](https://github.com/wmfs/json-schema-builder/commit/ab21704c8cfbbae6c4afbee5a3ff4aa0fc0799d5))
+* **deps:** update dependency mem-fs to v2 ([f654c59](https://github.com/wmfs/json-schema-builder/commit/f654c59b6c95c376f9fdd906fba089a1d33a278d))
+
 # [1.20.0](https://github.com/wmfs/json-schema-builder/compare/v1.19.0...v1.20.0) (2022-01-25)
 
 
