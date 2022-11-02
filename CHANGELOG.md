@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/wmfs/json-schema-builder/compare/v1.21.0...v1.22.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency mem-fs-editor to v9 ([73c8b0e](https://github.com/wmfs/json-schema-builder/commit/73c8b0e60759825ed0456348b28f649dccc06668))
+
 # [1.21.0](https://github.com/wmfs/json-schema-builder/compare/v1.20.0...v1.21.0) (2022-11-01)
 
 
