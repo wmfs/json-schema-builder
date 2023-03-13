@@ -1,3 +1,13 @@
+# [1.23.0](https://github.com/wmfs/json-schema-builder/compare/v1.22.0...v1.23.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([1ce9d63](https://github.com/wmfs/json-schema-builder/commit/1ce9d63f1183b122f82137a4f3ce1eb69c297f4d))
+* **deps-dev:** update dependency chai to v4.3.7 ([2fa934c](https://github.com/wmfs/json-schema-builder/commit/2fa934ca5ef4369b52ef96d2c1c31bac00c155cd))
+* **deps-dev:** update dependency mocha to v10.2.0 ([167232b](https://github.com/wmfs/json-schema-builder/commit/167232b987ab3be6908cbead35ee03d9c46830af))
+* **deps:** update dependency dottie to v2.0.3 ([07d9f98](https://github.com/wmfs/json-schema-builder/commit/07d9f985d885e150e8644890f4e630315573305d))
+
 # [1.22.0](https://github.com/wmfs/json-schema-builder/compare/v1.21.0...v1.22.0) (2022-11-02)
 
 
