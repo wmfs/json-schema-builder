@@ -25,7 +25,7 @@
     "@wmfs/tymly-data-types": "1.5.0",
     "lodash": "4.17.21",
     "dottie": "2.0.3",
-    "mem-fs": "2.2.1",
+    "mem-fs": "2.3.0",
     "mem-fs-editor": "9.7.0"
   },
   "devDependencies": {
