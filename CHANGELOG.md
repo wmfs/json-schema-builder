@@ -1,3 +1,12 @@
+# [1.24.0](https://github.com/wmfs/json-schema-builder/compare/v1.23.0...v1.24.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency rimraf to v4 ([e96f5de](https://github.com/wmfs/json-schema-builder/commit/e96f5deb4e49cb0bd5db3bb3588ff34351860add))
+* **deps-dev:** update dependency semantic-release to v20 ([15eb359](https://github.com/wmfs/json-schema-builder/commit/15eb359a025418797b9c5935e0f7b3276bfe1026))
+* **deps:** update dependency mem-fs-editor to v9.7.0 ([298e623](https://github.com/wmfs/json-schema-builder/commit/298e6234190c90f7918cef742a222a368a0bb023))
+
 # [1.23.0](https://github.com/wmfs/json-schema-builder/compare/v1.22.0...v1.23.0) (2023-03-13)
 
 
