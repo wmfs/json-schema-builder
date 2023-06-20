@@ -1,3 +1,21 @@
+# [1.26.0](https://github.com/wmfs/json-schema-builder/compare/v1.25.0...v1.26.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([333ae9a](https://github.com/wmfs/json-schema-builder/commit/333ae9a51198bdc79e48e24a4643b7b67a8c4575))
+* **deps-dev:** update dependency rimraf to v4.4.1 ([98ae8d9](https://github.com/wmfs/json-schema-builder/commit/98ae8d99f494c389b1edfc6f62732c13d02000d4))
+* **deps-dev:** update dependency rimraf to v5 ([b1a87a6](https://github.com/wmfs/json-schema-builder/commit/b1a87a6e891de636df8c67e326d9b12598d0bc08))
+* **deps-dev:** update dependency rimraf to v5.0.1 ([055c441](https://github.com/wmfs/json-schema-builder/commit/055c44199c13a703d33840694c854ec85415de41))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([45e7cbb](https://github.com/wmfs/json-schema-builder/commit/45e7cbb618f23739272de976c49e615ff8984bff))
+* **deps-dev:** update dependency semantic-release to v21 ([b20b359](https://github.com/wmfs/json-schema-builder/commit/b20b3597cc4a6f628d976284cc89c93256a80596))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([eedfca9](https://github.com/wmfs/json-schema-builder/commit/eedfca99a1541d2d60a3ab351f9099a0812026ef))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([88d449d](https://github.com/wmfs/json-schema-builder/commit/88d449df5e5155245626d11b358bc5ca9dfe4183))
+* **deps-dev:** update dependency semantic-release to v21.0.3 ([0e7a8a5](https://github.com/wmfs/json-schema-builder/commit/0e7a8a59034591061254f878721e15a06b81d108))
+* **deps-dev:** update dependency semantic-release to v21.0.5 ([2cada87](https://github.com/wmfs/json-schema-builder/commit/2cada87443a48c757d33d36a979d97aeb09581f3))
+* **deps-dev:** update dependency standard to v17.1.0 ([d054730](https://github.com/wmfs/json-schema-builder/commit/d054730332db3fb162feb55810c9ce50e7467533))
+* **deps:** update dependency dottie to v2.0.4 [security] ([e86d68c](https://github.com/wmfs/json-schema-builder/commit/e86d68ce46815962b3d3edff0884d2fedd696f04))
+
 # [1.25.0](https://github.com/wmfs/json-schema-builder/compare/v1.24.0...v1.25.0) (2023-03-13)
 
 
