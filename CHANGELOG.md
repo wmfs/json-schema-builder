@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/wmfs/json-schema-builder/compare/v1.26.0...v1.27.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency dottie to v2.0.6 ([e3983af](https://github.com/wmfs/json-schema-builder/commit/e3983af1412c16e381efa468afa929f53e4cc463))
+
 # [1.26.0](https://github.com/wmfs/json-schema-builder/compare/v1.25.0...v1.26.0) (2023-06-20)
 
 
