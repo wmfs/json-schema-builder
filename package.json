@@ -39,7 +39,7 @@
     "semantic-release": "22.0.5",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "rimraf": "5.0.1"
+    "rimraf": "5.0.4"
   },
   "scripts": {
     "test": "nyc mocha",
