@@ -29,7 +29,7 @@
     "mem-fs-editor": "9.7.0"
   },
   "devDependencies": {
-    "chai": "4.4.0",
+    "chai": "4.4.1",
     "codecov": "3.8.3",
     "conventional-changelog-metahub": "4.0.1",
     "cz-conventional-changelog": "3.3.0",
