@@ -22,7 +22,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@wmfs/tymly-data-types": "1.5.0",
+    "@wmfs/tymly-data-types": "1.6.0",
     "lodash": "4.17.21",
     "dottie": "2.0.6",
     "mem-fs": "2.3.0",
