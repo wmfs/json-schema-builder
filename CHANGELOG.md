@@ -1,3 +1,5 @@
+## [1.28.1](https://github.com/wmfs/json-schema-builder/compare/v1.28.0...v1.28.1) (2026-08-13)
+
 ## [1.28.0](https://github.com/wmfs/json-schema-builder/compare/v1.27.0...v1.28.0) (2025-10-21)
 
 ### Build system dependencies :hammer:
