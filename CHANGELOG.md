@@ -1,3 +1,22 @@
+## [1.29.0](https://github.com/wmfs/json-schema-builder/compare/v1.28.1...v1.29.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([b998929](https://github.com/wmfs/json-schema-builder/commit/b99892908b89093d43d808efc2a3a8fe8c42d759))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#298](https://github.com/wmfs/json-schema-builder/issues/298)) ([4033caf](https://github.com/wmfs/json-schema-builder/commit/4033caf02ebef15004b23a542dee38ae2de17668))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#304](https://github.com/wmfs/json-schema-builder/issues/304)) ([0959ba8](https://github.com/wmfs/json-schema-builder/commit/0959ba8e7eb0e58fd8101334bba52e79a5208143))
+* **deps-dev:** update dependency mocha to v12 ([#300](https://github.com/wmfs/json-schema-builder/issues/300)) ([a735c43](https://github.com/wmfs/json-schema-builder/commit/a735c439b678f434c500e51908f9189935a49d29))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#301](https://github.com/wmfs/json-schema-builder/issues/301)) ([f0f52a2](https://github.com/wmfs/json-schema-builder/commit/f0f52a27c15751e4824c61935783f6c364a00073))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#302](https://github.com/wmfs/json-schema-builder/issues/302)) ([421880c](https://github.com/wmfs/json-schema-builder/commit/421880cce310f3dbf80df11b0972ec2cd2e4b03b))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#303](https://github.com/wmfs/json-schema-builder/issues/303)) ([e7fc317](https://github.com/wmfs/json-schema-builder/commit/e7fc317a077b703850a462fefd76763ecc2add4b))
+* **deps:** update dependency dottie to v2.0.7 [security] ([#272](https://github.com/wmfs/json-schema-builder/issues/272)) ([d3cf898](https://github.com/wmfs/json-schema-builder/commit/d3cf898825575ef8f58b587455acb1400549f030))
+* **deps:** update dependency lodash to v4.18.1 [security] ([#266](https://github.com/wmfs/json-schema-builder/issues/266)) ([c3029f3](https://github.com/wmfs/json-schema-builder/commit/c3029f37c43302aabed05d8aefa7177d85b50fd5))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#307](https://github.com/wmfs/json-schema-builder/issues/307)) ([439d392](https://github.com/wmfs/json-schema-builder/commit/439d392f5ac33f0289abf73beba5911f612482c3))
+* use shared renovate preset [sc-34117] ([#305](https://github.com/wmfs/json-schema-builder/issues/305)) ([bb118ce](https://github.com/wmfs/json-schema-builder/commit/bb118cedd06c54fe9b362d5dafeab77424538057))
+
 ## [1.28.1](https://github.com/wmfs/json-schema-builder/compare/v1.28.0...v1.28.1) (2026-08-13)
 
 ## [1.28.0](https://github.com/wmfs/json-schema-builder/compare/v1.27.0...v1.28.0) (2025-10-21)
