@@ -1,3 +1,9 @@
+## [1.30.0](https://github.com/wmfs/json-schema-builder/compare/v1.29.0...v1.30.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @wmfs/tymly-data-types to v1.6.1 ([#306](https://github.com/wmfs/json-schema-builder/issues/306)) ([e47484d](https://github.com/wmfs/json-schema-builder/commit/e47484dd92ae29fc3306f9a4f90ef032a1a1561a))
+
 ## [1.29.0](https://github.com/wmfs/json-schema-builder/compare/v1.28.1...v1.29.0) (2026-10-30)
 
 ### Build system dependencies :hammer:
