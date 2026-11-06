@@ -1,3 +1,9 @@
+## [1.30.1](https://github.com/wmfs/json-schema-builder/compare/v1.30.0...v1.30.1) (2026-11-06)
+
+### Bug Fix(es) :bug:
+
+* remove unused mem-fs and mem-fs-editor dependencies ([#308](https://github.com/wmfs/json-schema-builder/issues/308)) ([8609b82](https://github.com/wmfs/json-schema-builder/commit/8609b828eddd1dad32fa56261799e34aa593dcb3))
+
 ## [1.30.0](https://github.com/wmfs/json-schema-builder/compare/v1.29.0...v1.30.0) (2026-11-02)
 
 ### Build system dependencies :hammer:
